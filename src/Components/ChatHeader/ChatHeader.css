@@ -1,0 +1,60 @@
+
+.chat-header-container {
+  background: linear-gradient(90deg, #FFC50F, #FF8C00); /* gradient for depth */
+  color: #1F1F1F; /* darker text for contrast */
+  padding: 15px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px 10px 0 0; /* rounded top corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* subtle shadow */
+  font-family: 'Arial', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  position: relative;
+  z-index: 10; /* removed % because z-index is integer */
+  transition: background 0.3s ease;
+}
+
+.chat-header-container:hover {
+  background: linear-gradient(90deg, #FFDA59, #FFA500); /* subtle hover effect */
+}
+
+.chat-header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.chat-header-title {
+  margin: 0;
+  font-size: 20px;
+  text:border-color;
+}
+
+.chat-header-online-dot {
+  width: 8px;
+  height: 8px;
+  background: green;
+  border-radius: 50%;
+}
+
+.chat-header-online-text {
+  font-size: 14px;
+  color: black;
+}
+
+.chat-header-right {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.chat-header-welcome {
+  font-size: 14px;
+  color: black;
+}
+
+.chat-header-username {
+  font-weight: bold;
+}
